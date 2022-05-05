@@ -46,6 +46,26 @@ footer{
     bottom: 60px;
 }
 
+@media only screen and (max-width: 450px){
+    .clock{
+        padding: 10px 10px;
+        font-size: 55px;
+        left: 11%;
+    }
+
+    .time{
+        font-size: 15px;
+        left: 25%;
+        top: 200px;
+    }
+
+    footer {
+        font-size: 14px;
+        left: 28%;
+        bottom: 190px;
+    }
+}
+
 @media only screen and (max-width: 600px){
     .clock{
         padding: 10px 10px;
